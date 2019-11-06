@@ -6,12 +6,14 @@
 
 let div = require('./div');
 const sub = require('./sub.js');
-const sum = require('/multiply.js');
+const sum = require('./sum');
+const multiply = require('./multiply');
 const Math = {
     PI: 3.141592653589793, // Mathematical constant defined as the ratio of a circle's circumference to its diameter.
     div: div,
     sub: sub, 
-    multiply: multiply
+    multiply: multiply,
+    sum: sum
  }
 
   
